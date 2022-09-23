@@ -1,0 +1,42 @@
+.header-item{
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-style: normal;
+    padding-left: 10px;
+    list-style: none;
+    
+}
+.nav-items{
+    display: flex;
+    box-shadow:inset;
+    flex: 1;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-item > li{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 300;
+}
+.nav-items >img{
+    width: 40px;
+}
+.heading{
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.footer-items{
+    display: flex;
+    color: black;
+    font-size: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+}
+.footer-items >img{
+    width: 40px;
+}
